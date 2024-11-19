@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Alumni-Regular";
+    src: url("../fonts/Alumni_Sans_Pinstripe/AlumniSansPinstripe-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Borel";
+    src: url("../fonts/Borel/Borel-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Doto-Light";
+    src: url("../fonts/Doto/Doto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Edu-Regular";
+    src: url("../fonts/Edu_AU_VIC_WA_NT_Pre/EduAUVICWANTPre-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Space-Reg";
+    src: url("../fonts/Space_Grotesk/SpaceGrotesk-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4FEBAC;
+    background-color: #5C3CDC;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    margin: 30px;
+    color: #5C3CDC;
+}
+
+section article p:nth-of-type(1) {
+    font-family: "Alumni-Regular";
+    font-size: 2rem;
+}
+
+section article p:nth-of-type(2) {
+    font-family: "Borel";
+    font-size: 2rem;
+}
+
+section article p:nth-of-type(3) {
+    background-color: #4FEBAC;
+    color: rgb(144, 86, 10);
+    font-family: "Doto-Light";
+    font-size: 2rem;
+    padding: 10px;
+}
+
+section article p:nth-of-type(4) {
+    font-family: "Edu-Regular";
+    font-size: 2rem;
+}
+
+section article p:nth-of-type(5) {
+    font-family: "Space-Reg";
+    font-size: 1.5rem;
+    background-color: #5C3CDC;
+    color: #4FEBAC;
+    padding: 10px;
+}

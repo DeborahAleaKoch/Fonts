@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Chelsa_M";
+    src: url("../fonts/Chelsea_Market/ChelseaMarket-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Fredoka-Cond-Bold";
+    src: url("../fonts/Fredoka/Fredoka_Condensed-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Press-Start";
+    src: url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+main {
+    margin: 20px;
+}
+
+h1 {
+    background-color: rgb(0, 255, 0);
+    padding: 20px;
+    text-align: center;
+    /* margin: 20px 20px; */
+    font-family: "Press-Start";
+    font-size: 2em;
+}
+
+section {
+    padding: 5px;
+}
+
+section article p {
+    font-family: "Pacifico";
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+section article p em {
+    font-family: "Fredoka-Cond-Bold";
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 1px 1px 1px red;
+}
+
+section article p strong {
+    font-family: "Press-Start";
+    font-size: 0.3rem;
+}
+
+a {
+    font-family: "Fredoka-Cond-Bold";
+    text-decoration: none;
+    color: black;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
